@@ -1,14 +1,20 @@
-# See https://www.dartlang.org/guides/libraries/private-files
-
-# Files and directories created by pub
+# Dart/Flutter specific
 .dart_tool/
 .packages
 build/
-# If you're building an application, you may want to check-in your pubspec.lock
 pubspec.lock
 
-# Directory created by dartdoc
-# If you don't generate documentation locally you can remove this line.
+# IDE specific
+.idea/
+.vscode/
+*.iml
+
+# Conventional Flutter/Dart ignores
+.flutter-plugins
+.flutter-plugins-dependencies
+.pub-cache/
+.pub/
+coverage/
 doc/api/
 
 # dotenv environment variables file
@@ -22,6 +28,3 @@ doc/api/
 *.js_
 *.js.deps
 *.js.map
-
-.flutter-plugins
-.flutter-plugins-dependencies
