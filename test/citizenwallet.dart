@@ -1,5 +1,5 @@
 import 'package:test/test.dart';
-import 'package:citizenwallet_sdk/citizenwallet_sdk.dart';
+import 'package:citizenwallet/citizenwallet.dart';
 
 void main() {
   test('helloWorld returns correct greeting', () {
