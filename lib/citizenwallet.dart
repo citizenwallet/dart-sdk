@@ -1,6 +1,6 @@
 /// Support for doing something awesome.
 ///
 /// More dartdocs go here.
-library citizenwallet_sdk;
+library citizenwallet;
 
 export 'src/hello_world.dart';
