@@ -1,6 +1,6 @@
-# citizenwallet_sdk
+# Citizen Wallet
 
-A new Dart package that provides shared app logic.
+Shared logic between all dart apps.
 
 ## Features
 
