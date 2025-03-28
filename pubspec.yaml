@@ -1,6 +1,6 @@
 name: citizenwallet
 description: A new Dart package that provides shared app logic
-version: 0.0.2
+version: v0.0.3
 homepage: https://github.com/citizenwallet/dart-sdk
 
 environment:
