@@ -63,7 +63,7 @@ jobs:
 
       - name: Update Pubspec
         run: |
-          sed -i 's/version: .*/version: ${NEW_TAG}/' pubspec.yaml
+          sed -i "s/version: .*/version: ${{ steps.parse_tag.outputs.tag }}/" pubspec.yaml
 
       - name: Commit changes
         run: |
